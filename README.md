@@ -44,6 +44,10 @@ I'm a backend engineer with 3+ years of production experience and an M.S. in Com
 
 ## ⚡ Featured Projects
 
+### 🔷 [agentic-ai-toolkit](https://github.com/NagaSatyaPhanindraVallabhaneni/agentic-ai-toolkit)
+A ReAct agent framework plus two working demos — confidence-gated agentic RAG (hybrid BM25 + FAISS retrieval with query reformulation) and a Planner-Writer-Critic multi-agent report crew — fully tested (33 passing tests) with CI.
+`Python` `FastAPI` `Agentic AI` `RAG` `Multi-Agent Systems`
+
 ### 🔹 [LLM Evaluation Guardrails](https://github.com/NagaSatyaPhanindraVallabhaneni/llm-evaluation-guardrails-framework)
 A framework for evaluating LLM reliability — prompt injection testing, hallucination detection, safety evaluation, structured benchmarks, and regression testing.
 `Python` `LLM Evaluation` `Safety Testing`
