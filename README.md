@@ -1,6 +1,10 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,46,59,0,212,255&height=230&section=header&text=PHANINDRA%20VALLABHANENI&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Machine%20Learning%20Engineer%20%E2%80%A2%20AI%20Infrastructure%20%E2%80%A2%20Python%20Backend&descSize=15&descAlignY=58" />
+<img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/hero.svg" alt="Phanindra Vallabhaneni — Machine Learning Engineer" />
 </div>
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/status.svg" alt="system status" />
+</p>
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=%3E+Machine+Learning+Engineer;%3E+AI+Infrastructure+%26+LLM+Systems;%3E+Python+Backend+Engineer+%28SDE%29;%3E+Data+Pipelines+%26+MLOps;%3E+Open+to+Work+in+the+USA+%F0%9F%87%BA%F0%9F%87%B8" alt="Typing animation" /></a>
@@ -18,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 👨‍💻 About Me
@@ -32,7 +36,7 @@
 - 🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 💼 Experience
@@ -52,7 +56,7 @@
 - Unit / integration / regression testing across distributed APIs; Docker + Jenkins CI/CD
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 🚀 Featured Projects
@@ -69,7 +73,7 @@
 | **Phishing URL Detection** | BERT-based NLP classifier on a **12M+ row** dataset (**78% accuracy**), misclassification triage tooling | `BERT` `Python` |
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 🛠️ Tech Arsenal
@@ -96,7 +100,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 📊 GitHub Analytics
@@ -124,7 +128,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 🏅 Certifications
@@ -136,7 +140,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
 
 ### 📫 Let's Connect
