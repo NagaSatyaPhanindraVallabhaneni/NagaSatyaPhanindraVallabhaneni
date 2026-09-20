@@ -27,6 +27,20 @@
   <img width="720" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/terminal.svg" alt="terminal" />
 </p>
 
+### ⚡ PHANINDRA.OS — a living system
+
+<p align="center"><i>This profile <b>boots, orbits, and pulses</b> — animated live in your browser, re-rendered from real GitHub data every day. No two visits look the same.</i></p>
+
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/boot.svg" alt="animated boot sequence — plays live on every visit" />
+</p>
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/orbit.svg" alt="repository constellation — his repos as orbiting planets, sized by stars" />
+</p>
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/pulse.svg" alt="14-day commit pulse from the GitHub API" />
+</p>
+
 <details>
 <summary><b>💼 Hiring? Start here — the 30-second version</b></summary>
 <br/>
