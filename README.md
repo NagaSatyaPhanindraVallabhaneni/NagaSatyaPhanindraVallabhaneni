@@ -7,6 +7,12 @@
 </p>
 
 <p align="center">
+<!-- COOKING:START -->
+🔥 <b>Currently cooking:</b> <a href="https://github.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni">this profile</a> — the mothership · pushed Sep 20, 2026
+<!-- COOKING:END -->
+</p>
+
+<p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=%3E+Machine+Learning+Engineer;%3E+AI+Infrastructure+%26+LLM+Systems;%3E+Python+Backend+Engineer+%28SDE%29;%3E+Data+Pipelines+%26+MLOps;%3E+Open+to+Work+in+the+USA+%F0%9F%87%BA%F0%9F%87%B8" alt="Typing animation" /></a>
 </p>
 
@@ -21,6 +27,19 @@
   <img width="720" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/terminal.svg" alt="terminal" />
 </p>
 
+<details>
+<summary><b>💼 Hiring? Start here — the 30-second version</b></summary>
+<br/>
+
+I'm **Phanindra Vallabhaneni**, a Machine Learning Engineer (**M.S. Computer Science**, May 2026) building **production-grade ML/AI systems** — data pipelines, LLM infrastructure, MLOps. Every repo is tested, Dockerized, and CI-green.
+
+- 📄 **[Download my résumé (PDF)](https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/resume.pdf)**
+- 🛸 Flagship proof: [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) · [log-anomaly-detector](https://github.com/NagaSatyaPhanindraVallabhaneni/log-anomaly-detector) · [loki-self-improving-agent](https://github.com/NagaSatyaPhanindraVallabhaneni/loki-self-improving-agent)
+- 📬 Fastest contact: [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/naga-vallabhaneni-394822438/)
+- 🛂 **Work authorization:** authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
+
+</details>
+
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
 </p>
@@ -34,6 +53,18 @@
 - 📍 Dayton, Ohio, USA
 - 💼 **Open to full-time roles in the USA**: SDE / Backend Engineer · Machine Learning Engineer · AI Engineer · Data Engineer · Forward Deployed Engineer
 - 🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
+</p>
+
+### 🧭 Engineering Principles
+
+- 🧪 **If it isn't tested, it isn't done.** Every repo ships with a real test suite — 267 tests passing and counting.
+- 🔍 **Proof over promises.** Live demos, honest benchmarks, documented limitations. No vaporware.
+- 🏗️ **Boring infrastructure, ambitious systems.** Docker, CI/CD, and clean APIs underneath; JARVIS-grade ideas on top.
+- 📖 **Learn in public.** Every README explains what was tried, what failed, and what the numbers actually mean.
+- 🚀 **Build like it's production.** Because one day, it will be.
 
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
@@ -106,17 +137,10 @@
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NagaSatyaPhanindraVallabhaneni&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF" alt="GitHub stats" />
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/fleet.svg" alt="fleet dashboard — live GitHub data, auto-refreshed daily" />
+</p>
+<p align="center">
   <img height="170" src="https://streak-stats.demolab.com?user=NagaSatyaPhanindraVallabhaneni&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="GitHub streak" />
-</p>
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NagaSatyaPhanindraVallabhaneni&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF" alt="Top languages" />
-</p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=NagaSatyaPhanindraVallabhaneni&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NagaSatyaPhanindraVallabhaneni&theme=dracula&no-frame=true&no-bg=true&margin-w=8" alt="GitHub trophies" />
 </p>
 
 <p align="center">
