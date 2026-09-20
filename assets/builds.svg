@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="398" viewBox="0 0 760 398">
+<defs><linearGradient id="bldbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11161d"/><stop offset="1" stop-color="#0d1117"/>
+    </linearGradient></defs>
+<rect x="4" y="4" width="752" height="390" rx="14" fill="url(#bldbg)" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="28" y="40" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="3" fill="#00D4FF">⬢ CI // LIVE BUILD BOARD</text>
+<text x="732" y="40" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#6e7681">AUTO-REFRESH · DAILY</text>
+<line x1="20" y1="52" x2="740" y2="52" stroke="#00D4FF" stroke-opacity="0.15"/>
+<circle cx="36" cy="68" r="5" fill="#3fb950"/>
+<text x="50" y="72" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">agentic-ai-toolkit</text>
+<text x="330" y="72" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">CI</text>
+<text x="626" y="72" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">11h ago</text>
+<rect x="640" y="55" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="70" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="104" r="5" fill="#3fb950"/>
+<text x="50" y="108" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">diffusion-image-generator</text>
+<text x="330" y="108" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">ci</text>
+<text x="626" y="108" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">9h ago</text>
+<rect x="640" y="91" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="106" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="140" r="5" fill="#3fb950"/>
+<text x="50" y="144" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">jarvis-ai-assistant</text>
+<text x="330" y="144" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">ci</text>
+<text x="626" y="144" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">10h ago</text>
+<rect x="640" y="127" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="142" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="176" r="5" fill="#3fb950"/>
+<text x="50" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">llm-evaluation-guardrails…</text>
+<text x="330" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">tests</text>
+<text x="626" y="180" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">11h ago</text>
+<rect x="640" y="163" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="178" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="212" r="5" fill="#3fb950"/>
+<text x="50" y="216" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">log-anomaly-detector</text>
+<text x="330" y="216" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">ci</text>
+<text x="626" y="216" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">11h ago</text>
+<rect x="640" y="199" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="214" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="248" r="5" fill="#3fb950"/>
+<text x="50" y="252" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">loki-self-improving-agent</text>
+<text x="330" y="252" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">ci</text>
+<text x="626" y="252" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">10h ago</text>
+<rect x="640" y="235" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="250" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="284" r="5" fill="#3fb950"/>
+<text x="50" y="288" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">profile ✦</text>
+<text x="330" y="288" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">Generate snake animation</text>
+<text x="626" y="288" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">5m ago</text>
+<rect x="640" y="271" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="286" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<circle cx="36" cy="320" r="5" fill="#3fb950"/>
+<text x="50" y="324" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#e6edf3">portfolio site</text>
+<text x="330" y="324" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">pages build and deployment</text>
+<text x="626" y="324" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#6e7681">11h ago</text>
+<rect x="640" y="307" width="92" height="22" rx="11" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.6"/>
+<text x="686.0" y="322" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#3fb950">PASSING</text>
+<text x="732" y="380" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="1.5" fill="#6e7681">LIVE FROM GITHUB ACTIONS · 2026-09-20 UTC</text>
+</svg>
