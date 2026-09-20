@@ -7,6 +7,7 @@
 Building scalable backend systems, production AI applications, and developer tools powered by FastAPI, MCP, and LLMs.
 
 [![Email](https://img.shields.io/badge/Email-phanindra.vns%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:phanindra.vns@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naga-vallabhaneni-394822438/)
 ![Location](https://img.shields.io/badge/Location-Dayton%2C%20OH-informational?style=flat)
 
 </div>
