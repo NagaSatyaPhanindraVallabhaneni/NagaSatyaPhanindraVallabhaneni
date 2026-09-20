@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="14" viewBox="0 0 1200 14">
+  <defs>
+    <linearGradient id="dbase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00D4FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dsweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#c9f4ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="6" width="1200" height="2" rx="1" fill="url(#dbase)"/>
+  <rect x="0" y="5" width="180" height="4" rx="2" fill="url(#dsweep)">
+    <animateTransform attributeName="transform" type="translate"
+      from="-220 0" to="1240 0" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
