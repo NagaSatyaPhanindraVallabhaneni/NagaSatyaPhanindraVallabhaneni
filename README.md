@@ -13,7 +13,13 @@
   <img src="https://img.shields.io/badge/Open_to_Work-SDE_%7C_ML_%7C_AI_%7C_FDE-00D4FF?style=flat-square&logo=github&logoColor=white" alt="Open to work" />
 </p>
 
----
+<p align="center">
+  <img width="720" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/terminal.svg" alt="terminal" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 👨‍💻 About Me
 
@@ -25,7 +31,9 @@
 - 💼 **Open to full-time roles in the USA**: SDE / Backend Engineer · Machine Learning Engineer · AI Engineer · Data Engineer · Forward Deployed Engineer
 - 🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 💼 Experience
 
@@ -43,7 +51,9 @@
 - Python automation pipelines: extraction, schema validation, metadata normalization
 - Unit / integration / regression testing across distributed APIs; Docker + Jenkins CI/CD
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 🚀 Featured Projects
 
@@ -58,7 +68,9 @@
 | **Plant Yield Prediction** | LSTM / CNN / Random Forest / SVR on time-series environmental data — **IEEE ICEARS 2022** publication | `TensorFlow` `PyTorch` |
 | **Phishing URL Detection** | BERT-based NLP classifier on a **12M+ row** dataset (**78% accuracy**), misclassification triage tooling | `BERT` `Python` |
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 🛠️ Tech Arsenal
 
@@ -83,7 +95,9 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 📊 GitHub Analytics
 
@@ -94,6 +108,12 @@
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NagaSatyaPhanindraVallabhaneni&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF" alt="Top languages" />
 </p>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=NagaSatyaPhanindraVallabhaneni&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=NagaSatyaPhanindraVallabhaneni&theme=dracula&no-frame=true&no-bg=true&margin-w=8" alt="GitHub trophies" />
+</p>
 
 <p align="center">
   <picture>
@@ -103,7 +123,9 @@
   </picture>
 </p>
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 🏅 Certifications
 
@@ -113,7 +135,9 @@
   <img src="https://img.shields.io/badge/NPTEL-Joy_of_Computing_with_Python-00D4FF?style=flat-square&logo=python&logoColor=white" />
 </p>
 
----
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider.svg" alt="" />
+</p>
 
 ### 📫 Let's Connect
 
