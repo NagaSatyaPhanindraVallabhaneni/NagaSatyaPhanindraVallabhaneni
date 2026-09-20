@@ -1,127 +1,129 @@
 <div align="center">
-
-# Hi, I'm Naga Satya Phanindra Vallabhaneni 👋
-
-### Python Backend Engineer · AI Infrastructure Engineer · Machine Learning Engineer
-
-Building scalable backend systems, production AI applications, and developer tools powered by FastAPI, MCP, and LLMs.
-
-[![Email](https://img.shields.io/badge/Email-phanindra.vns%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:phanindra.vns@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naga-vallabhaneni-394822438/)
-![Location](https://img.shields.io/badge/Location-Dayton%2C%20OH-informational?style=flat)
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,46,59,0,212,255&height=230&section=header&text=PHANINDRA%20VALLABHANENI&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Machine%20Learning%20Engineer%20%E2%80%A2%20AI%20Infrastructure%20%E2%80%A2%20Python%20Backend&descSize=15&descAlignY=58" />
 </div>
 
----
-
-## About Me
-
-I'm a backend engineer with 3+ years of production experience and an M.S. in Computer Science from the University of Dayton, specializing in REST API development, data pipeline engineering, and applied machine learning. I've built API integrations and scalable data pipelines for a major media platform at Accenture, and engineered FastAPI microservices with role-based access control and audit logging over sensitive institutional data at the University of Dayton — including fine-tuning GPT-4.1 to 88% accuracy for a production LLM assistant serving 11,000+ students. I'm an IEEE-published researcher with hands-on experience across distributed systems, cloud infrastructure (AWS, Azure), and CI/CD.
-
-> Great software isn't just about making it work — it's about making it scalable, secure, observable, maintainable, and enjoyable for the next engineer to work with.
-
-- 🎓 M.S. Computer Science @ University of Dayton
-- 🤖 AI Solutions Associate @ University of Dayton
-- 💼 Former Application Developer @ Accenture
-- 📍 Dayton, Ohio
-
----
-
-## 💼 Professional Experience
-
-**AI Solutions Associate — University of Dayton** · *Dec 2024 – May 2026*
-- Engineered a FastAPI/FastMCP microservice exposing a university database through a governed, natural-language query layer, with role-based access control, SQL-level query restrictions, connection audit logging, and async concurrency limits to prevent data leakage.
-- Built a reusable MCP agent framework with structured tool schemas, pluggable data-source connectors, and protocol-based query routing, standardizing how new AI integrations connect to institutional systems.
-- Built an end-to-end Python ETL pipeline that scraped, cleaned, and structured 4,400+ institutional Q&A records into JSONL for model training, with automated evaluation gating every release.
-- Fine-tuned GPT-4.1 on Azure AI Foundry — 88% test accuracy, a 50.6% loss reduction over baseline — and deployed it behind a production service layer serving 11,000+ students; presented the system at Stander Symposium 2026.
-
-**Application Developer — Accenture Solutions** · *Oct 2022 – Jun 2024*
-- Engineered REST API integrations and scalable data pipeline services in Python and Docker, powering high-throughput data delivery for a global media distribution platform.
-- Owned analytics platform integration and partner onboarding end to end, validating inter-service communication, API contracts, and integration tests so new partners launched without data-flow failures.
-- Resolved high-impact performance bottlenecks using distributed computing patterns, data-structure optimization, and database query tuning, raising pipeline throughput and retrieval speed.
-- Automated deployment across distributed teams with CI/CD pipelines in Jenkins, GitHub, and Docker, and led fault-tolerance analysis and root-cause resolution across DEV → QA → PROD.
-
----
-
-## ⚡ Featured Projects
-
-### 🔷 [agentic-ai-toolkit](https://github.com/NagaSatyaPhanindraVallabhaneni/agentic-ai-toolkit)
-A ReAct agent framework plus two working demos — confidence-gated agentic RAG (hybrid BM25 + FAISS retrieval with query reformulation) and a Planner-Writer-Critic multi-agent report crew — fully tested (33 passing tests) with CI.
-`Python` `FastAPI` `Agentic AI` `RAG` `Multi-Agent Systems`
-
-### 🔹 [LLM Evaluation Guardrails](https://github.com/NagaSatyaPhanindraVallabhaneni/llm-evaluation-guardrails-framework)
-A framework for evaluating LLM reliability — prompt injection testing, hallucination detection, safety evaluation, structured benchmarks, and regression testing.
-`Python` `LLM Evaluation` `Safety Testing`
-
-### 🔹 Affinaquest MCP Server
-Production FastAPI + FastMCP service exposing an institutional database through a secure, access-controlled natural-language query layer.
-`FastAPI` `FastMCP` `PostgreSQL` `MySQL` `RBAC` `Audit Logging`
-
-### 🔹 FlyerGPT
-Production AI assistant powered by a GPT-4.1 model fine-tuned on Azure AI Foundry over 4,400+ curated Q&A records — 88% accuracy, deployed to 11,000+ students with automated evaluation gating.
-`Azure AI Foundry` `GPT-4.1 Fine-Tuning` `Prompt Engineering`
-
-### 🔹 Phishing URL Detection
-ML pipeline for malicious URL classification — fine-tuned BERT (95%) and RoBERTa (96%) on a 549,346-URL dataset, reaching an F1-score of 0.95, with adversarial robustness testing.
-`PyTorch` `Hugging Face` `BERT` `RoBERTa` `Scikit-learn`
-
-*Several projects above involve proprietary or institutional data and are described here without source access.*
-
----
-
-## 📊 GitHub Stats
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=%3E+Machine+Learning+Engineer;%3E+AI+Infrastructure+%26+LLM+Systems;%3E+Python+Backend+Engineer+%28SDE%29;%3E+Data+Pipelines+%26+MLOps;%3E+Open+to+Work+in+the+USA+%F0%9F%87%BA%F0%9F%87%B8" alt="Typing animation" /></a>
+</p>
 
 <p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=NagaSatyaPhanindraVallabhaneni&show_icons=true&theme=default&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NagaSatyaPhanindraVallabhaneni&layout=compact&hide_border=true" />
+  <img src="https://komarev.com/ghpvc/?username=NagaSatyaPhanindraVallabhaneni&color=00d4ff&style=flat-square&label=Profile+Views" alt="profile views" />
+  <a href="https://www.linkedin.com/in/naga-vallabhaneni-394822438/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:phanindra.vns@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-00D4FF?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Open_to_Work-SDE_%7C_ML_%7C_AI_%7C_FDE-00D4FF?style=flat-square&logo=github&logoColor=white" alt="Open to work" />
 </p>
 
 ---
 
-## 🛠 Technical Stack
+### 👨‍💻 About Me
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,php,bash" />
+> **3+ years** of production experience building **Python backends, data pipelines, and ML/AI systems** — from high-throughput ETL processing **3.5M+ records/day** to **LLM-powered agentic applications** with evaluation and guardrails.
+
+- 🎓 **M.S. Computer Science**, University of Dayton — May 2026
+- 🎓 **B.Tech, Electronics & Communications**, GRIET — May 2022
+- 📍 Dayton, Ohio, USA
+- 💼 **Open to full-time roles in the USA**: SDE / Backend Engineer · Machine Learning Engineer · AI Engineer · Data Engineer · Forward Deployed Engineer
+- 🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
+
+---
+
+### 💼 Experience
+
+**AI Solutions Associate** — *University of Dayton, Dayton, OH* `Dec 2025 – May 2026`
+- Built Python data ingestion, normalization & validation pipelines curating **4,400+ institutional records** for automated query routing
+- Implemented **Model Context Protocol (MCP)** tool schemas + protocol-based routing for validation, logging & real-time execution
+- Performance evaluation reporting: **88% response accuracy**, **50.6% loss reduction**; edge-case & behavioral analysis
+
+**Infrastructure & Python Engineer** — *Accenture, Hyderabad, India* `Oct 2022 – Jul 2024`
+- Python automation & high-throughput data pipelines (**3.5M+ daily records**); triage, debugging & root-cause analysis
+- QA / integration / regression suites across distributed services → **80% fewer production bugs**, **99.9% uptime** across 14 environments
+- CI/CD with Jenkins, Docker & GitHub Actions — moved releases from **weekly → daily**
+
+**Systems & Infrastructure Engineer** — *LJ Technologies, Hyderabad, India* `May 2021 – Jul 2022`
+- Python automation pipelines: extraction, schema validation, metadata normalization
+- Unit / integration / regression testing across distributed APIs; Docker + Jenkins CI/CD
+
+---
+
+### 🚀 Featured Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) | Real-time feature serving — tumbling-window aggregations, watermark late-event handling, pluggable online store | `FastAPI` `Docker` `Python` |
+| [log-anomaly-detector](https://github.com/NagaSatyaPhanindraVallabhaneni/log-anomaly-detector) | Log anomaly detection API — IsolationForest over 16 engineered features, synthetic log generator | `scikit-learn` `FastAPI` `Docker` |
+| [agentic-ai-toolkit](https://github.com/NagaSatyaPhanindraVallabhaneni/agentic-ai-toolkit) | ReAct agent framework — confidence-gated agentic RAG + Planner-Writer-Critic multi-agent crew | `Python` `LLMs` `RAG` |
+| [nl2sql-guardrails-api](https://github.com/NagaSatyaPhanindraVallabhaneni/nl2sql-guardrails-api) | Natural-language → governed, read-only SQL — schema allowlisting, injection defenses, audit logging | `FastAPI` `SQLite` |
+| [llm-evaluation-guardrails-framework](https://github.com/NagaSatyaPhanindraVallabhaneni/llm-evaluation-guardrails-framework) | LLM eval & safety harness — hallucination scoring, prompt-injection & PII-leak detection, CI/CD release gates | `Python` `LLMs` |
+| **FlyerGPT** | MCP agent infrastructure + AI assistant for conversational database access (Azure OpenAI) | `FastMCP` `Azure OpenAI` |
+| **Plant Yield Prediction** | LSTM / CNN / Random Forest / SVR on time-series environmental data — **IEEE ICEARS 2022** publication | `TensorFlow` `PyTorch` |
+| **Phishing URL Detection** | BERT-based NLP classifier on a **12M+ row** dataset (**78% accuracy**), misclassification triage tooling | `BERT` `Python` |
+
+---
+
+### 🛠️ Tech Arsenal
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-00D4FF?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
-**Backend & APIs:** FastAPI · FastMCP · Flask · REST API Design · Async I/O & Concurrency · RBAC · WTForms
+---
 
-**AI / ML:** GPT-4.1 Fine-Tuning · MCP · Azure OpenAI · Azure AI Foundry · PyTorch · TensorFlow · Hugging Face Transformers · BERT · RoBERTa · Scikit-learn · Pandas · NumPy
+### 📊 GitHub Analytics
 
-**Databases & Data Engineering:** PostgreSQL · MySQL · Schema Design · Query Optimization · ETL Pipelines · Apache Spark · Hadoop · Hive
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NagaSatyaPhanindraVallabhaneni&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF" alt="GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=NagaSatyaPhanindraVallabhaneni&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="GitHub streak" />
+</p>
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NagaSatyaPhanindraVallabhaneni&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF" alt="Top languages" />
+</p>
 
-**Cloud & DevOps:** AWS (EC2, S3, VPC, EBS) · Azure · Docker · Jenkins · GitHub Actions · CI/CD · Git
-
-**Systems & Security:** Distributed Systems · Fault Tolerance · Load Balancing · Multithreading · TLS/SSL · Data Leakage Prevention
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
-## 🎓 Education
+### 🏅 Certifications
 
-**University of Dayton** — M.S., Computer Science · *Aug 2024 – May 2026*
-GPA 3.68 · Presenter, Stander Symposium 2026 · Dayton, OH
-
-**GRIET** — B.Tech, Electronics & Communication Engineering · *Jul 2018 – May 2022*
-GPA 7.37/10 · MVP, Undergraduate Major Project · Hyderabad, India
-
----
-
-## 📚 Research & Certifications
-
-**IEEE Publication:** *Plant Yield and Growth Prediction Using Machine Learning and Deep Learning Algorithms* — International Conference on Electronics and Renewable Systems (ICEARS), 2022
-
-**Certifications:** GitHub Foundations (GitHub Education, 2025) · Oracle AI Foundations Associate · NPTEL — Joy of Computing Using Python
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub_Foundations-2025-00D4FF?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle_AI_Foundations-Associate-FF0000?style=flat-square&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/NPTEL-Joy_of_Computing_with_Python-00D4FF?style=flat-square&logo=python&logoColor=white" />
+</p>
 
 ---
+
+### 📫 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/naga-vallabhaneni-394822438/"><img src="https://img.shields.io/badge/LinkedIn-Naga_Satya_Phanindra_Vallabhaneni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:phanindra.vns@gmail.com"><img src="https://img.shields.io/badge/Gmail-phanindra.vns@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+</p>
+
+<p align="center"><i>⚡ Building production-grade ML systems, one pipeline at a time.</i></p>
 
 <div align="center">
-
-### 🤝 Let's build something great
-
-I'm always open to discussing backend engineering, AI infrastructure, and LLM applications.
-
-📧 [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com)
-
-⭐ If you like any of my projects, feel free to star them — thanks for stopping by!
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,46,59,0,212,255&height=120&section=footer" />
 </div>
