@@ -92,6 +92,10 @@ I'm **Phanindra Vallabhaneni**, a Machine Learning Engineer (**M.S. Computer Sci
 
 ### 🚀 Featured Projects
 
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/spotlight.svg" alt="repo spotlight — a different project every day, auto-refreshed" />
+</p>
+
 | Project | What it does | Stack |
 |---|---|---|
 | [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) | Real-time feature serving — tumbling-window aggregations, watermark late-event handling, pluggable online store | `FastAPI` `Docker` `Python` |
@@ -136,6 +140,14 @@ I'm **Phanindra Vallabhaneni**, a Machine Learning Engineer (**M.S. Computer Sci
 
 ### 📊 GitHub Analytics
 
+<p align="center"><i>Live data, refreshed daily by the fleet — no two visits look the same.</i></p>
+
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/builds.svg" alt="live CI build board — real GitHub Actions statuses, auto-refreshed daily" />
+</p>
+<p align="center">
+  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/activity.svg" alt="live GitHub activity feed — auto-refreshed daily" />
+</p>
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/fleet.svg" alt="fleet dashboard — live GitHub data, auto-refreshed daily" />
 </p>
