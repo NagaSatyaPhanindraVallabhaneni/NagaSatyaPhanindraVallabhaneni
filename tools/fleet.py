@@ -17,7 +17,7 @@ import os
 import re
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 USER = os.environ.get("GITHUB_USER", "NagaSatyaPhanindraVallabhaneni")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -461,6 +461,186 @@ def cooking_block(repos):
             f'{desc}{lang_bit} · pushed {when}')
 
 
+# ── CINEMA: animated, data-driven SVG modules (SMIL plays live in the browser) ──
+
+LANG_COLORS = {
+    "Python": "#3572A5", "Jupyter Notebook": "#DA5B0B", "HTML": "#e34c26",
+    "CSS": "#563d7c", "JavaScript": "#f1e05a", "TypeScript": "#3178c6",
+    "Shell": "#89e051", "Dockerfile": "#384d54", "C++": "#f34b7d",
+    "C": "#555555", "Java": "#b07219", "Go": "#00ADD8", "Rust": "#dea584",
+}
+
+def fetch_daily_pushes(repos, days=14):
+    """His own commit counts per day for the last `days` days (GitHub Commits API)."""
+    since = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    counts = {}
+    for r in repos:
+        try:
+            commits = api(f"/repos/{USER}/{r['name']}/commits?since={since}&per_page=100&author={USER}")
+        except Exception:
+            continue
+        if isinstance(commits, list):
+            for c in commits:
+                d = ((c.get("commit") or {}).get("author") or {}).get("date", "")[:10]
+                if d:
+                    counts[d] = counts.get(d, 0) + 1
+    out = []
+    now = datetime.now(timezone.utc).date()
+    for i in range(days - 1, -1, -1):
+        d = (now - timedelta(days=i)).isoformat()
+        out.append((d, counts.get(d, 0)))
+    return out
+
+
+def render_boot(today, repo_count):
+    W, H = 760, 360
+    A = []
+    A.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
+    A.append('<defs>'
+             '<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">'
+             '<stop offset="0" stop-color="#00D4FF" stop-opacity="0"/>'
+             '<stop offset="0.5" stop-color="#00D4FF" stop-opacity="0.06"/>'
+             '<stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></linearGradient>'
+             '<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">'
+             '<stop offset="0" stop-color="#00D4FF"/><stop offset="1" stop-color="#3fb950"/></linearGradient>'
+             '<filter id="bglow" x="-60%" y="-60%" width="220%" height="220%">'
+             '<feGaussianBlur stdDeviation="4" result="b"/>'
+             '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>'
+             '</filter></defs>')
+    A.append(f'<rect width="{W}" height="{H}" rx="10" fill="#05070d"/>')
+    A.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="9" fill="none" stroke="#00D4FF" stroke-opacity="0.25"/>')
+    A.append(f'<text x="28" y="34" font-family="{MONO}" font-size="13" letter-spacing="2" fill="{CYAN}">▸ PHANINDRA.OS // BOOT SEQUENCE</text>')
+    A.append(f'<g font-family="{MONO}" font-size="12" fill="#3fb950"><circle cx="{W-78}" cy="29" r="5" fill="#3fb950">'
+             f'<animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>'
+             f'<text x="{W-66}" y="34">LIVE</text></g>')
+    # radar
+    rx, ry, rr = W - 92, 108, 44
+    A.append(f'<g opacity="0.8"><circle cx="{rx}" cy="{ry}" r="{rr}" fill="none" stroke="#12384a"/>'
+             f'<circle cx="{rx}" cy="{ry}" r="{rr*0.66}" fill="none" stroke="#12384a"/>'
+             f'<circle cx="{rx}" cy="{ry}" r="{rr*0.33}" fill="none" stroke="#12384a"/>'
+             f'<line x1="{rx}" y1="{ry}" x2="{rx+rr}" y2="{ry}" stroke="{CYAN}" stroke-width="2" filter="url(#bglow)">'
+             f'<animateTransform attributeName="transform" type="rotate" from="0 {rx} {ry}" to="360 {rx} {ry}" dur="5s" repeatCount="indefinite"/></line>'
+             f'<circle cx="{rx+18}" cy="{ry-12}" r="3" fill="{CYAN}"><animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/></circle></g>')
+    lines = [
+        (0.4, "#8b949e", "> kernel v3.0 .................... LOADED"),
+        (0.9, "#e6edf3", "> identity ..... ML/AI SYSTEMS ENGINEER"),
+        (1.4, "#8b949e", "> work_auth .... OPT EAD · open to H-1B"),
+        (1.9, "#8b949e", "> arsenal ...... python · pytorch · fastapi · docker · k8s · aws"),
+        (2.4, "#e6edf3", f"> fleet ........ {repo_count} repos · {TESTS_PASSING} tests · 0 red builds"),
+        (2.9, "#3fb950", "> status ....... [ ALL SYSTEMS NOMINAL ]"),
+    ]
+    for t, col, txt in lines:
+        glow = ' filter="url(#bglow)"' if col == "#3fb950" else ""
+        A.append(f'<text x="36" y="{118 + lines.index((t, col, txt)) * 28}" font-family="{MONO}" font-size="14" fill="{col}"{glow} opacity="0">{esc(txt)}'
+                 f'<animate attributeName="opacity" values="0;1" begin="{t}s" dur="0.25s" fill="freeze"/></text>')
+    # progress bar
+    A.append(f'<text x="36" y="300" font-family="{MONO}" font-size="11" letter-spacing="2" fill="#6e7681">LOADING MODULES</text>')
+    A.append(f'<rect x="36" y="310" width="620" height="10" rx="5" fill="#161b22"/>')
+    A.append(f'<rect x="36" y="310" width="0" height="10" rx="5" fill="url(#bar)" filter="url(#bglow)">'
+             f'<animate attributeName="width" from="0" to="620" begin="0.4s" dur="3s" fill="freeze"/></rect>')
+    A.append(f'<text x="666" y="319" font-family="{MONO}" font-size="12" fill="#3fb950" opacity="0">100%<animate attributeName="opacity" values="0;1" begin="3.4s" dur="0.3s" fill="freeze"/></text>')
+    # cursor + prompt
+    A.append(f'<rect x="36" y="332" width="10" height="15" fill="{CYAN}"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>')
+    A.append(f'<text x="52" y="344" font-family="{MONO}" font-size="13" fill="#6e7681">awaiting recruiter input_</text>')
+    # scanline sweep
+    A.append(f'<rect x="0" y="-40" width="{W}" height="46" fill="url(#scan)">'
+             f'<animate attributeName="y" from="-46" to="{H}" dur="5.5s" repeatCount="indefinite"/></rect>')
+    A.append(f'<text x="{W-28}" y="{H-14}" text-anchor="end" font-family="{MONO}" font-size="10" letter-spacing="1.5" fill="#3a4552">REGENERATED DAILY · {today} UTC</text>')
+    A.append("</svg>")
+    return "".join(A)
+
+
+def render_orbit(repos):
+    W, H = 760, 400
+    cx, cy = 248, 200
+    pool = [r for r in repos if r["name"] not in (USER, f"{USER}.github.io")]
+    pool.sort(key=lambda r: (-(r.get("stars") or 0), r["name"]))
+    pool = pool[:8]
+    A = []
+    A.append(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
+    A.append('<defs><radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">'
+             '<stop offset="0" stop-color="#00D4FF"/><stop offset="0.55" stop-color="#00D4FF" stop-opacity="0.35"/>'
+             '<stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></radialGradient>'
+             '<filter id="pglow" x="-80%" y="-80%" width="260%" height="260%">'
+             '<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>')
+    A.append(f'<rect width="{W}" height="{H}" rx="10" fill="#05070d"/>')
+    A.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="9" fill="none" stroke="#00D4FF" stroke-opacity="0.25"/>')
+    # starfield
+    for i in range(46):
+        h = (i * 2654435761) % 1000 / 1000
+        sx = 20 + h * (W - 40)
+        sy = 44 + ((i * 40503) % 1000) / 1000 * (H - 80)
+        r = 0.7 + (h * 7 % 1)
+        A.append(f'<circle cx="{sx:.0f}" cy="{sy:.0f}" r="{r:.1f}" fill="#9db4c8" opacity="0.25">'
+                 f'<animate attributeName="opacity" values="0.15;0.9;0.15" dur="{2.5 + (i % 5) * 0.7:.1f}s" begin="{(i * 0.37) % 4:.2f}s" repeatCount="indefinite"/></circle>')
+    A.append(f'<text x="28" y="34" font-family="{MONO}" font-size="13" letter-spacing="2" fill="{CYAN}">◈ REPO CONSTELLATION // LIVE ORBITS</text>')
+    # orbits + planets
+    for i, r in enumerate(pool):
+        rad = 58 + i * 24
+        A.append(f'<path id="orb{i}" d="M {cx-rad} {cy} a {rad} {rad} 0 1 1 {2*rad} 0 a {rad} {rad} 0 1 1 {-2*rad} 0" fill="none" stroke="#16283a" stroke-width="1"/>')
+        pr = 6 + min(r.get("stars") or 0, 8) * 0.9
+        col = LANG_COLORS.get(r.get("lang") or "", "#8b949e")
+        dur = 26 - i * 2.2
+        A.append(f'<circle r="{pr:.1f}" fill="{col}" filter="url(#pglow)">'
+                 f'<animateMotion dur="{dur:.1f}s" begin="-{i*3.1:.1f}s" repeatCount="indefinite"><mpath xlink:href="#orb{i}"/></animateMotion></circle>')
+    # sun
+    A.append(f'<circle cx="{cx}" cy="{cy}" r="46" fill="url(#sun)"><animate attributeName="r" values="44;50;44" dur="3.2s" repeatCount="indefinite"/></circle>')
+    A.append(f'<circle cx="{cx}" cy="{cy}" r="26" fill="#0b1622" stroke="{CYAN}" stroke-width="2" filter="url(#pglow)"/>')
+    A.append(f'<text x="{cx}" y="{cy+7}" text-anchor="middle" font-family="{MONO}" font-size="16" font-weight="bold" fill="{CYAN}">PV</text>')
+    # legend
+    A.append(f'<text x="556" y="76" font-family="{MONO}" font-size="12" letter-spacing="2" fill="#6e7681">FLEET MANIFEST</text>')
+    for i, r in enumerate(pool):
+        y = 102 + i * 30
+        col = LANG_COLORS.get(r.get("lang") or "", "#8b949e")
+        nm = esc(r["name"] if len(r["name"]) <= 19 else r["name"][:18] + "…")
+        A.append(f'<circle cx="566" cy="{y-4}" r="5" fill="{col}"/>'
+                 f'<text x="580" y="{y}" font-family="{MONO}" font-size="12" fill="#c9d1d9">{nm}</text>'
+                 f'<text x="745" y="{y}" text-anchor="end" font-family="{MONO}" font-size="12" fill="#ffd479">★ {r.get("stars") or 0}</text>')
+    A.append(f'<text x="{W-28}" y="{H-14}" text-anchor="end" font-family="{MONO}" font-size="10" letter-spacing="1.5" fill="#3a4552">ORBIT SIZE ∝ STARS · SPEED ∝ COMMIT VELOCITY</text>')
+    A.append("</svg>")
+    return "".join(A)
+
+
+def render_pulse(daily, today):
+    W, H = 760, 230
+    n = len(daily)
+    x0, x1, yb, yt = 44, W - 30, 178, 34
+    maxc = max(1, max(c for _, c in daily))
+    pts = [(x0 + i * (x1 - x0) / (n - 1), yb - (c / maxc) * (yb - yt)) for i, (_, c) in enumerate(daily)]
+    d = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+    area = d + f" L {x1:.1f} {yb} L {x0:.1f} {yb} Z"
+    peak_i = max(range(n), key=lambda i: daily[i][1])
+    A = []
+    A.append(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
+    A.append('<defs><linearGradient id="pfade" x1="0" y1="0" x2="0" y2="1">'
+             '<stop offset="0" stop-color="#00D4FF" stop-opacity="0.35"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></linearGradient>'
+             '<filter id="wglow" x="-40%" y="-40%" width="180%" height="180%">'
+             '<feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>')
+    A.append(f'<rect width="{W}" height="{H}" rx="10" fill="#05070d"/>')
+    A.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="9" fill="none" stroke="#00D4FF" stroke-opacity="0.25"/>')
+    A.append(f'<text x="28" y="30" font-family="{MONO}" font-size="13" letter-spacing="2" fill="{CYAN}">♥ COMMIT PULSE // LAST 14 DAYS</text>')
+    A.append(f'<text x="{W-28}" y="30" text-anchor="end" font-family="{MONO}" font-size="12" fill="#ffd479">PEAK ▸ {daily[peak_i][1]} pushes · {daily[peak_i][0][5:]}</text>')
+    for f in (0, 0.5, 1):
+        gy = yb - f * (yb - yt)
+        A.append(f'<line x1="{x0}" y1="{gy:.0f}" x2="{x1}" y2="{gy:.0f}" stroke="#16283a"/>')
+    A.append(f'<path d="{area}" fill="url(#pfade)"/>')
+    A.append(f'<path id="wave" d="{d}" fill="none" stroke="{CYAN}" stroke-width="2.5" filter="url(#wglow)" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">'
+             f'<animate attributeName="stroke-dashoffset" from="100" to="0" dur="2.2s" fill="freeze"/></path>')
+    A.append(f'<circle r="5" fill="{CYAN}" filter="url(#wglow)" opacity="0">'
+             f'<animate attributeName="opacity" values="0;1" begin="2.2s" dur="0.3s" fill="freeze"/>'
+             f'<animateMotion dur="7s" begin="2.2s" repeatCount="indefinite"><mpath xlink:href="#wave"/></animateMotion></circle>')
+    for i, (ds, c) in enumerate(daily):
+        if i % 2 == 0:
+            x = x0 + i * (x1 - x0) / (n - 1)
+            A.append(f'<text x="{x:.0f}" y="200" text-anchor="middle" font-family="{MONO}" font-size="10" fill="#3a4552">{ds[5:]}</text>')
+        if c == maxc and maxc > 0:
+            x, y = pts[i]
+            A.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="4" fill="#ffd479" filter="url(#wglow)"/>')
+    A.append(f'<text x="{W-28}" y="{H-12}" text-anchor="end" font-family="{MONO}" font-size="10" letter-spacing="1.5" fill="#3a4552">SOURCE: COMMITS API · {today} UTC</text>')
+    A.append("</svg>")
+    return "".join(A)
+
+
 def main():
     repos, user = load_data()
     now = datetime.now(timezone.utc)
@@ -484,6 +664,17 @@ def main():
     with open(os.path.join(ROOT, "assets", "builds.svg"), "w") as f:
         f.write(render_builds(builds, now) + "\n")
     print(f"wrote assets/builds.svg ({len(builds)} repos with CI)")
+
+    # cinema — animated, data-driven (SMIL plays live in the browser)
+    daily = fetch_daily_pushes(repos)
+    today = now.strftime("%Y-%m-%d")
+    with open(os.path.join(ROOT, "assets", "boot.svg"), "w") as f:
+        f.write(render_boot(today, len(repos)) + "\n")
+    with open(os.path.join(ROOT, "assets", "orbit.svg"), "w") as f:
+        f.write(render_orbit(repos) + "\n")
+    with open(os.path.join(ROOT, "assets", "pulse.svg"), "w") as f:
+        f.write(render_pulse(daily, today) + "\n")
+    print(f"wrote cinema: boot.svg, orbit.svg, pulse.svg ({sum(c for _, c in daily)} pushes / 14d)")
 
     readme = os.path.join(ROOT, "README.md")
     with open(readme) as f:
