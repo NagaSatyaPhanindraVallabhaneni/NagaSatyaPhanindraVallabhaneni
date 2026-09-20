@@ -142,6 +142,9 @@ I'm **Phanindra Vallabhaneni**, a Machine Learning Engineer (**M.S. Computer Sci
 <p align="center">
   <img height="170" src="https://streak-stats.demolab.com?user=NagaSatyaPhanindraVallabhaneni&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="GitHub streak" />
 </p>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+</p>
 
 <p align="center">
   <picture>
