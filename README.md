@@ -30,6 +30,9 @@
 ### ⚡ PHANINDRA.OS — a living system
 
 <p align="center"><i>This profile <b>boots, orbits, and pulses</b> — animated live in your browser, re-rendered from real GitHub data every day. No two visits look the same.</i></p>
+<p align="center">
+  <a href="https://nagasatyaphanindravallabhaneni.github.io"><b>▸ ENTER THE LIVE SYSTEM</b> — the full interactive command center: real JavaScript, real GitHub API data fetched the second you load it, zero static images</a>
+</p>
 
 <p align="center">
   <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/boot.svg" alt="animated boot sequence — plays live on every visit" />
