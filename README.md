@@ -8,7 +8,7 @@
 
 <p align="center">
 <!-- COOKING:START -->
-🔥 <b>Currently cooking:</b> <a href="https://github.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni">this profile</a> — the mothership · pushed Sep 23, 2026
+🔥 <b>Currently cooking:</b> <a href="https://github.com/NagaSatyaPhanindraVallabhaneni/jarvis-job-agent">jarvis-job-agent</a> — no description yet · <code>Python</code> · pushed Sep 24, 2026
 <!-- COOKING:END -->
 </p>
 

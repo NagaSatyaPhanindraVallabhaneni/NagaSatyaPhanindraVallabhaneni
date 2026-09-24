@@ -11,10 +11,10 @@
 <rect x="4" y="4" width="752" height="242" rx="14" fill="url(#spotbg)" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1.5"/>
 <rect x="4" y="4" width="752" height="242" rx="14" fill="url(#spotglow)"/>
 <text x="28" y="40" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="3" fill="#00D4FF">◆ SPOTLIGHT // ROTATES DAILY</text>
-<text x="732" y="40" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#6e7681">DAY 266 / 365</text>
-<text x="28" y="96" font-family="'JetBrains Mono',Consolas,monospace" font-size="30" font-weight="700" fill="#e6edf3">loki-self-improving-agent</text>
-<text x="28" y="128" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">A self-improving coding agent — writes code, runs it, fixes its own</text>
-<text x="28" y="152" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">errors, and grows a reusable skill library + experience memory…</text>
-<g font-family="'JetBrains Mono',Consolas,monospace" font-size="13"><circle cx="34" cy="189" r="5" fill="#3572A5"/><text x="46" y="194" fill="#c9d1d9">Python</text><text x="190" y="194" fill="#ffd479">★ 0</text><text x="270" y="194" fill="#6e7681">⟳ pushed 3d ago</text></g>
-<text x="732" y="232" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="1.5" fill="#6e7681">github.com/NagaSatyaPhanindraVallabhaneni/loki-self-improving-agent · NEW REPO EVERY 24H</text>
+<text x="732" y="40" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#6e7681">DAY 267 / 365</text>
+<text x="28" y="96" font-family="'JetBrains Mono',Consolas,monospace" font-size="30" font-weight="700" fill="#e6edf3">NagaSatyaPhanindraVallabhaneni</text>
+<text x="28" y="128" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">Profile README — Naga Satya Phanindra Vallabhaneni, backend &amp; AI/ML</text>
+<text x="28" y="152" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">engineer</text>
+<g font-family="'JetBrains Mono',Consolas,monospace" font-size="13"><circle cx="34" cy="189" r="5" fill="#3572A5"/><text x="46" y="194" fill="#c9d1d9">Python</text><text x="190" y="194" fill="#ffd479">★ 0</text><text x="270" y="194" fill="#6e7681">⟳ pushed 7h ago</text></g>
+<text x="732" y="232" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="1.5" fill="#6e7681">github.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni · NEW REPO EVERY 24H</text>
 </svg>
