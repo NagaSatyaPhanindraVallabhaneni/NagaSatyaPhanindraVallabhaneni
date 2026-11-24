@@ -1,213 +1,85 @@
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/hero.svg" alt="Phanindra Vallabhaneni — Machine Learning Engineer" />
-</div>
+# Naga Satya Phanindra Vallabhaneni
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/status.svg" alt="system status" />
-</p>
+**Validation Engineer** · Dayton, OH · +1 (984) 687-6001 · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/)
 
-<p align="center">
-<!-- COOKING:START -->
-🔥 <b>Currently cooking:</b> <a href="https://github.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni">this profile</a> — the mothership · pushed Nov 23, 2026
-<!-- COOKING:END -->
-</p>
+> Validation Engineer with an M.S. in Computer Science, a B.Tech in Electronics and Communication Engineering, and 2.5+ years of experience in post-silicon validation, telecom hardware bring-up, high-speed protocol testing, and lab automation. Proficient in validating Ethernet, PCIe, SerDes, SPI, I2C, UART, and JTAG interfaces across evaluation boards and HIL benches using Python (PyVISA/SCPI), C/C++, Embedded Linux, Oscilloscopes, and BERTs.
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=%3E+Machine+Learning+Engineer;%3E+AI+Infrastructure+%26+LLM+Systems;%3E+Python+Backend+Engineer+%28SDE%29;%3E+Data+Pipelines+%26+MLOps;%3E+Open+to+Work+in+the+USA+%F0%9F%87%BA%F0%9F%87%B8" alt="Typing animation" /></a>
-</p>
+🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship** · Open to full-time Validation / Embedded / Firmware roles in the USA
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NagaSatyaPhanindraVallabhaneni&color=00d4ff&style=flat-square&label=Profile+Views" alt="profile views" />
-  <a href="https://www.linkedin.com/in/naga-vallabhaneni-394822438/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:phanindra.vns@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-00D4FF?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Open_to_Work-SDE_%7C_ML_%7C_AI_%7C_FDE-00D4FF?style=flat-square&logo=github&logoColor=white" alt="Open to work" />
-</p>
+## 🛠️ Technical Skills
 
-<p align="center">
-  <img width="720" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/terminal.svg" alt="terminal" />
-</p>
+**Validation & Characterization:** Post-Silicon Validation, Silicon Bring-Up, PVT Characterization, Signal Integrity, BER Testing, Eye Diagram & Shmoo Analysis, Hardware-in-the-Loop (HIL), Functional & Electrical Validation, Regression & Stress Testing, Root-Cause Analysis (RCA), Requirements Traceability Matrix (RTM)
 
-### ⚡ PHANINDRA.OS — a living system
+**Hardware Protocols:** Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), SerDes (PAM4), SPI, I2C, UART, JTAG, MDIO, DDR, TCP/IP
 
-<p align="center"><i>This profile <b>boots, orbits, and pulses</b> — animated live in your browser, re-rendered from real GitHub data every day. No two visits look the same.</i></p>
-<p align="center">
-  <a href="https://nagasatyaphanindravallabhaneni.github.io"><b>▸ ENTER THE LIVE SYSTEM</b> — the full interactive command center: real JavaScript, real GitHub API data fetched the second you load it, zero static images</a>
-</p>
+**Lab Instrumentation:** Oscilloscopes, Bit Error Rate Testers (BERT), Logic Analyzers, Protocol Analyzers, Programmable Power Supplies, Thermal Chambers, Evaluation Boards (EVB)
 
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/boot.svg" alt="animated boot sequence — plays live on every visit" />
-</p>
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/orbit.svg" alt="repository constellation — his repos as orbiting planets, sized by stars" />
-</p>
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/pulse.svg" alt="14-day commit pulse from the GitHub API" />
-</p>
+**Programming & Automation:** Python, C, C++, Embedded Linux, PyVISA (SCPI), pytest, SQL, Pandas, NumPy, Bash
 
-<details>
-<summary><b>💼 Hiring? Start here — the 30-second version</b></summary>
-<br/>
+**CI/CD & Tooling:** Git, Jenkins, GitHub Actions, Docker, FastAPI, Jira, Confluence, AWS
 
-I'm **Phanindra Vallabhaneni**, a Machine Learning Engineer (**M.S. Computer Science**, May 2026) building **production-grade ML/AI systems** — data pipelines, LLM infrastructure, MLOps. Every repo is tested, Dockerized, and CI-green.
+## 💼 Experience
 
-- 📄 **[Download my résumé (PDF)](https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/resume.pdf)**
-- 🛸 Flagship proof: [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) · [log-anomaly-detector](https://github.com/NagaSatyaPhanindraVallabhaneni/log-anomaly-detector) · [loki-self-improving-agent](https://github.com/NagaSatyaPhanindraVallabhaneni/loki-self-improving-agent)
-- 📬 Fastest contact: [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/naga-vallabhaneni-394822438/)
-- 🛂 **Work authorization:** authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
+### Validation Engineer — Marvell Technology, Santa Clara, CA · June 2026 – Present
 
-</details>
+- Architected reusable C/C++ bring-up scripts over JTAG and MDIO for Post-Silicon Validation across 6 Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), and SerDes (PAM4) EVBs, cutting Silicon Bring-Up from 9 to 3 days.
+- Automated PVT Characterization, Signal Integrity, BER Testing, and Eye Diagram/Shmoo Analysis using Python and PyVISA across Oscilloscopes, BERTs, and Thermal Chambers, validating 48 lanes below 1e-12 BER in 34 hours.
+- Developed SQL, Pandas, and NumPy analytics scripts correlating lane jitter against DDR traffic and rail droop, isolating 19 silicon and PCB marginalities via Root-Cause Analysis (RCA) in Jira and Confluence.
+- Authored Requirements Traceability Matrices (RTM) mapping 340+ IEEE Ethernet and PCIe specifications to Protocol Analyzer checks, while enforcing peer review checklists that cut validation script review time to 8 hours.
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+### Validation Engineer — Accenture, Hyderabad, India · October 2022 – October 2023
 
-### 👨‍💻 About Me
+- Designed a modular Hardware-in-the-Loop (HIL) validation framework in Python, pytest, and C/C++ across 14 telecom gateway benches, validating 3.5M+ daily network packets while maintaining 99.9% lab-bench uptime.
+- Executed physical-layer and protocol validation on telecom router boards covering TCP/IP, Ethernet, SPI, I2C, and UART using Logic Analyzers and Protocol Analyzers, resolving 38 timing defects before carrier acceptance.
+- Migrated overnight lab suites into Jenkins and Docker pipelines using Bash and Git, compressing release sign-off from 5 days to 4 hours and dropping escaped defects from 18 to 3.
+- Led Root-Cause Analysis (RCA) across hardware and firmware teams in Jira and Confluence to close 65+ defects, mentoring 4 junior engineers and raising automated bench coverage from 54% to 88%.
 
-> **3+ years** of production experience building **Python backends, data pipelines, and ML/AI systems** — from high-throughput ETL processing **3.5M+ records/day** to **LLM-powered agentic applications** with evaluation and guardrails.
+### Associate Validation Engineer — Hexaware Technologies, Hyderabad, India · September 2021 – October 2022
 
-- 🎓 **M.S. Computer Science**, University of Dayton — May 2026
-- 🎓 **B.Tech, Electronics & Communications**, GRIET — May 2022
-- 📍 Dayton, Ohio, USA
-- 💼 **Open to full-time roles in the USA**: SDE / Backend Engineer · Machine Learning Engineer · AI Engineer · Data Engineer · Forward Deployed Engineer
-- 🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship**
+- Established 480+ functional, boundary, and electrical validation test cases mapped to telecom hardware specifications via Requirements Traceability Matrices (RTM) in Jira, closing all coverage gaps before client audits.
+- Scripted Python and C utilities controlling Oscilloscopes and Programmable Power Supplies to automate UART, I2C, and SPI voltage-margin sweeps across 6 controller boards, cutting validation from 24 to 6 hours.
+- Consolidated log parsing and threshold alerting using Python, SQL, Pandas, and NumPy across 500K+ daily Embedded Linux soak-test logs, isolating clock-drift and watchdog-reset failures during 72-hour thermal runs.
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+## 🚀 Technical Projects
 
-### 🧭 Engineering Principles
+### [Automated PVT Characterization & Lab Instrument Control Suite](https://github.com/NagaSatyaPhanindraVallabhaneni/pvt-characterization-suite)
 
-- 🧪 **If it isn't tested, it isn't done.** Every repo ships with a real test suite — 267 tests passing and counting.
-- 🔍 **Proof over promises.** Live demos, honest benchmarks, documented limitations. No vaporware.
-- 🏗️ **Boring infrastructure, ambitious systems.** Docker, CI/CD, and clean APIs underneath; JARVIS-grade ideas on top.
-- 📖 **Learn in public.** Every README explains what was tried, what failed, and what the numbers actually mean.
-- 🚀 **Build like it's production.** Because one day, it will be.
+`Python` `PyVISA (SCPI)` `Pandas` `NumPy` `SQL` `pytest`
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+- Created a Python and PyVISA (SCPI) automation layer orchestrating Oscilloscopes, BERTs, and Programmable Power Supplies to run unattended voltage-temperature sweeps and generate Eye Diagram and Shmoo plots.
+- Engineered a SQL, Pandas, and NumPy reporting pipeline validated with 32 pytest hardware-mock tests, reducing multi-rail characterization reporting turnaround from 8 hours to 45 minutes.
 
-### 💼 Experience
+### [Telecom & Embedded Protocol Validation Harness](https://github.com/NagaSatyaPhanindraVallabhaneni/embedded-protocol-validation-harness)
 
-**AI Solutions Associate** — *University of Dayton, Dayton, OH* `Dec 2025 – May 2026`
-- Built Python data ingestion, normalization & validation pipelines curating **4,400+ institutional records** for automated query routing
-- Implemented **Model Context Protocol (MCP)** tool schemas + protocol-based routing for validation, logging & real-time execution
-- Performance evaluation reporting: **88% response accuracy**, **50.6% loss reduction**; edge-case & behavioral analysis
+`C/C++` `Python` `Embedded Linux` `UART` `SPI` `I2C` `TCP/IP` `Docker`
 
-**Infrastructure & Python Engineer** — *Accenture, Hyderabad, India* `Oct 2022 – Jul 2024`
-- Python automation & high-throughput data pipelines (**3.5M+ daily records**); triage, debugging & root-cause analysis
-- QA / integration / regression suites across distributed services → **80% fewer production bugs**, **99.9% uptime** across 14 environments
-- CI/CD with Jenkins, Docker & GitHub Actions — moved releases from **weekly → daily**
+- Implemented a C/C++ and Python loopback stress harness on Embedded Linux injecting malformed frames, clock skew, and packet loss across UART, SPI, I2C, and TCP/IP links.
+- Packaged bench runners in Docker with automated pass/fail telemetry summaries, confirming zero silent packet corruption across 1M+ continuous stress frames and edge-case error-recovery state transitions.
 
-**Systems & Infrastructure Engineer** — *LJ Technologies, Hyderabad, India* `May 2021 – Jul 2022`
-- Python automation pipelines: extraction, schema validation, metadata normalization
-- Unit / integration / regression testing across distributed APIs; Docker + Jenkins CI/CD
+### [High-Throughput Hardware Telemetry & Validation Log Engine](https://github.com/NagaSatyaPhanindraVallabhaneni/hardware-telemetry-log-engine)
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+`Python` `FastAPI` `SQL` `Docker` `AWS` `pytest`
 
-### 🚀 Featured Projects
+- Deployed a real-time lab telemetry ingestion service using FastAPI, SQL, and Docker on AWS to capture timestamped bench measurements and flag rail-voltage or BER violations automatically.
+- Validated out-of-order event ingestion, historical backfill, and TTL data expiration across 59 automated pytest unit and integration tests while sustaining under 25ms p99 API response latency.
 
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/spotlight.svg" alt="repo spotlight — a different project every day, auto-refreshed" />
-</p>
+More on GitHub: [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) · [log-anomaly-detector](https://github.com/NagaSatyaPhanindraVallabhaneni/log-anomaly-detector) · [agentic-ai-toolkit](https://github.com/NagaSatyaPhanindraVallabhaneni/agentic-ai-toolkit) · [nl2sql-guardrails-api](https://github.com/NagaSatyaPhanindraVallabhaneni/nl2sql-guardrails-api) · [llm-evaluation-guardrails-framework](https://github.com/NagaSatyaPhanindraVallabhaneni/llm-evaluation-guardrails-framework)
 
-| Project | What it does | Stack |
-|---|---|---|
-| [streaming-feature-store](https://github.com/NagaSatyaPhanindraVallabhaneni/streaming-feature-store) | Real-time feature serving — tumbling-window aggregations, watermark late-event handling, pluggable online store | `FastAPI` `Docker` `Python` |
-| [log-anomaly-detector](https://github.com/NagaSatyaPhanindraVallabhaneni/log-anomaly-detector) | Log anomaly detection API — IsolationForest over 16 engineered features, synthetic log generator | `scikit-learn` `FastAPI` `Docker` |
-| [agentic-ai-toolkit](https://github.com/NagaSatyaPhanindraVallabhaneni/agentic-ai-toolkit) | ReAct agent framework — confidence-gated agentic RAG + Planner-Writer-Critic multi-agent crew | `Python` `LLMs` `RAG` |
-| [nl2sql-guardrails-api](https://github.com/NagaSatyaPhanindraVallabhaneni/nl2sql-guardrails-api) | Natural-language → governed, read-only SQL — schema allowlisting, injection defenses, audit logging | `FastAPI` `SQLite` |
-| [llm-evaluation-guardrails-framework](https://github.com/NagaSatyaPhanindraVallabhaneni/llm-evaluation-guardrails-framework) | LLM eval & safety harness — hallucination scoring, prompt-injection & PII-leak detection, CI/CD release gates | `Python` `LLMs` |
-| **FlyerGPT** | MCP agent infrastructure + AI assistant for conversational database access (Azure OpenAI) | `FastMCP` `Azure OpenAI` |
-| **Plant Yield Prediction** | LSTM / CNN / Random Forest / SVR on time-series environmental data — **IEEE ICEARS 2022** publication | `TensorFlow` `PyTorch` |
-| **Phishing URL Detection** | BERT-based NLP classifier on a **12M+ row** dataset (**78% accuracy**), misclassification triage tooling | `BERT` `Python` |
+## 🎓 Education
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+- **Master of Science in Computer Science** — University of Dayton, Dayton, OH
+- **Bachelor of Technology in Electronics and Communication Engineering** — Gokaraju Rangaraju Institute of Engineering and Technology (GRIET), Hyderabad, India
 
-### 🛠️ Tech Arsenal
+## 🏅 Certifications
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/MCP_Protocol-00D4FF?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+- AWS Certified Cloud Practitioner (2026)
+- GitHub Foundations Badge (2025)
+- Cisco — Introduction to Packet Tracer
+- Cisco — Introduction to Cybersecurity
+- NPTEL — Joy of Computing Using Python
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
+## 📫 Let's Connect
 
-### 📊 GitHub Analytics
+[LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/) · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com)
 
-<p align="center"><i>Live data, refreshed daily by the fleet — no two visits look the same.</i></p>
-
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/builds.svg" alt="live CI build board — real GitHub Actions statuses, auto-refreshed daily" />
-</p>
-<p align="center">
-  <img width="760" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/activity.svg" alt="live GitHub activity feed — auto-refreshed daily" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/fleet.svg" alt="fleet dashboard — live GitHub data, auto-refreshed daily" />
-</p>
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=NagaSatyaPhanindraVallabhaneni&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" alt="GitHub streak" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
-
-### 🏅 Certifications
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub_Foundations-2025-00D4FF?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Oracle_AI_Foundations-Associate-FF0000?style=flat-square&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/NPTEL-Joy_of_Computing_with_Python-00D4FF?style=flat-square&logo=python&logoColor=white" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NagaSatyaPhanindraVallabhaneni/NagaSatyaPhanindraVallabhaneni/main/assets/divider-animated.svg" alt="" />
-</p>
-
-### 📫 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/naga-vallabhaneni-394822438/"><img src="https://img.shields.io/badge/LinkedIn-Naga_Satya_Phanindra_Vallabhaneni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:phanindra.vns@gmail.com"><img src="https://img.shields.io/badge/Gmail-phanindra.vns@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-</p>
-
-<p align="center"><i>⚡ Building production-grade ML systems, one pipeline at a time.</i></p>
-
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,46,59,0,212,255&height=120&section=footer" />
-</div>
+*Building reliable hardware, one validated lane at a time.*
