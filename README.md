@@ -1,6 +1,6 @@
 # Naga Satya Phanindra Vallabhaneni
 
-**Validation Engineer** · Dayton, OH · +1 (984) 687-6001 · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/satyavaiengineer/)
+**Validation Engineer** · Dayton, OH · +1 (984) 687-6001 · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/)
 
 > Validation Engineer with an M.S. in Computer Science, a B.Tech in Electronics and Communication Engineering, and 2.5+ years of experience in post-silicon validation, telecom hardware bring-up, high-speed protocol testing, and lab automation. Proficient in validating Ethernet, PCIe, SerDes, SPI, I2C, UART, and JTAG interfaces across evaluation boards and HIL benches using Python (PyVISA/SCPI), C/C++, Embedded Linux, Oscilloscopes, and BERTs.
 
@@ -80,6 +80,6 @@ More on GitHub: [streaming-feature-store](https://github.com/NagaSatyaPhanindraV
 
 ## 📫 Let's Connect
 
-[LinkedIn](https://www.linkedin.com/in/satyavaiengineer/) · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/) · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com)
 
 *Building reliable hardware, one validated lane at a time.*
