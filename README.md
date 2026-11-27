@@ -1,44 +1,46 @@
 # Naga Satya Phanindra Vallabhaneni
 
-**Validation Engineer** · Dayton, OH · +1 (984) 687-6001 · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/)
+**Embedded Software Engineer** · Dayton, OH · +1 (984) 687-6001 · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/)
 
-> Validation Engineer with an M.S. in Computer Science, a B.Tech in Electronics and Communication Engineering, and 2.5+ years of experience in post-silicon validation, telecom hardware bring-up, high-speed protocol testing, and lab automation. Proficient in validating Ethernet, PCIe, SerDes, SPI, I2C, UART, and JTAG interfaces across evaluation boards and HIL benches using Python (PyVISA/SCPI), C/C++, Embedded Linux, Oscilloscopes, and BERTs.
+> Embedded Software Engineer with an M.S. in Computer Science, a B.Tech in Electronics and Communication Engineering, and 3.5+ years of experience developing bare-metal firmware, Embedded Linux BSPs, RTOS applications, and low-level hardware drivers for networking and telecom systems. Experienced in C/C++, ARM Cortex architectures, Linux Kernel/U-Boot bring-up, DMA/ISR optimization, and high-speed interfaces (Ethernet, PCIe, SerDes, SPI, I2C, UART, JTAG) with hands-on hardware-firmware debugging using GDB, Oscilloscopes, and Logic Analyzers.
 
-🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship** · Open to full-time Validation / Embedded / Firmware roles in the USA
+🛂 Authorized to work in the US on **OPT EAD** · will require future **H-1B sponsorship** · Open to full-time Embedded / Firmware roles in the USA
 
 ## 🛠️ Technical Skills
 
-**Validation & Characterization:** Post-Silicon Validation, Silicon Bring-Up, PVT Characterization, Signal Integrity, BER Testing, Eye Diagram & Shmoo Analysis, Hardware-in-the-Loop (HIL), Functional & Electrical Validation, Regression & Stress Testing, Root-Cause Analysis (RCA), Requirements Traceability Matrix (RTM)
+**Languages:** C (C99/C11), C++ (C++14/17), Python, Bash/Shell, SQL
 
-**Hardware Protocols:** Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), SerDes (PAM4), SPI, I2C, UART, JTAG, MDIO, DDR, TCP/IP
+**Embedded Systems & OS:** Embedded Linux, Linux Kernel Drivers (Network/Character), FreeRTOS, Bare-Metal Firmware, Yocto Project, U-Boot, Device Tree (DTS), Board Support Packages (BSP), Hardware Abstraction Layer (HAL)
 
-**Lab Instrumentation:** Oscilloscopes, Bit Error Rate Testers (BERT), Logic Analyzers, Protocol Analyzers, Programmable Power Supplies, Thermal Chambers, Evaluation Boards (EVB)
+**Architecture & Low-Level Systems:** ARM Cortex-A/M, SoC Bring-Up, Zero-Copy DMA, Interrupt Service Routines (ISR), DDR Memory Timing, Multi-Threading, Lock-Free Queues, Watchdog Timers, State Machines, Power/Brown-Out Management
 
-**Programming & Automation:** Python, C, C++, Embedded Linux, PyVISA (SCPI), pytest, SQL, Pandas, NumPy, Bash
+**Protocols & Interfaces:** Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), SerDes, MDIO, SPI, I2C, UART, GPIO, JTAG/SWD, TCP/IP
 
-**CI/CD & Tooling:** Git, Jenkins, GitHub Actions, Docker, FastAPI, Jira, Confluence, AWS
+**Hardware Bring-Up & Debugging:** GDB, OpenOCD, Oscilloscopes, Logic Analyzers, Protocol Analyzers, Programmable Power Supplies, Hardware-in-the-Loop (HIL), Static Code Analysis
+
+**CI/CD & Tooling:** GCC, CMake, Make, Cross-Compilation, Git, Jenkins, GitHub Actions, Docker, pytest, FastAPI, AWS, Jira, Confluence
 
 ## 💼 Experience
 
-### Validation Engineer — Marvell Technology, Santa Clara, CA · June 2026 – Present
+### Embedded Software Engineer — Marvell Technology, Santa Clara, CA · June 2026 – Present
 
-- Architected reusable C/C++ bring-up scripts over JTAG and MDIO for Post-Silicon Validation across 6 Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), and SerDes (PAM4) EVBs, cutting Silicon Bring-Up from 9 to 3 days.
-- Automated PVT Characterization, Signal Integrity, BER Testing, and Eye Diagram/Shmoo Analysis using Python and PyVISA across Oscilloscopes, BERTs, and Thermal Chambers, validating 48 lanes below 1e-12 BER in 34 hours.
-- Developed SQL, Pandas, and NumPy analytics scripts correlating lane jitter against DDR traffic and rail droop, isolating 19 silicon and PCB marginalities via Root-Cause Analysis (RCA) in Jira and Confluence.
-- Authored Requirements Traceability Matrices (RTM) mapping 340+ IEEE Ethernet and PCIe specifications to Protocol Analyzer checks, while enforcing peer review checklists that cut validation script review time to 8 hours.
+- Architected bare-metal and Embedded Linux Board Support Packages (BSP), U-Boot bootloaders, and Device Tree overlays in C and C++ across 6 ARM Cortex SoC evaluation boards, choosing modular HAL abstractions over board-specific forks to cut new silicon bring-up from 9 to 3 days.
+- Engineered interrupt-driven Linux Kernel drivers for Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), MDIO, and SerDes PHYs using zero-copy DMA ring buffers instead of polled I/O, lowering CPU utilization by 38% while sustaining line-rate packet throughput.
+- Debugged DDR memory timing faults, rail-droop resets, and bus contention via JTAG, GDB, and Oscilloscopes, isolating 19 silicon-firmware race conditions and documenting hardware workarounds in Jira and Confluence.
+- Standardized firmware static analysis and peer review gates in Git and GitHub Actions mapped to 340+ IEEE Ethernet and PCIe specifications, reducing PR review turnaround from 3 days to 8 hours.
 
-### Validation Engineer — Accenture, Hyderabad, India · October 2022 – October 2023
+### Embedded Systems Engineer — Accenture, Hyderabad, India · October 2022 – October 2023
 
-- Designed a modular Hardware-in-the-Loop (HIL) validation framework in Python, pytest, and C/C++ across 14 telecom gateway benches, validating 3.5M+ daily network packets while maintaining 99.9% lab-bench uptime.
-- Executed physical-layer and protocol validation on telecom router boards covering TCP/IP, Ethernet, SPI, I2C, and UART using Logic Analyzers and Protocol Analyzers, resolving 38 timing defects before carrier acceptance.
-- Migrated overnight lab suites into Jenkins and Docker pipelines using Bash and Git, compressing release sign-off from 5 days to 4 hours and dropping escaped defects from 18 to 3.
-- Led Root-Cause Analysis (RCA) across hardware and firmware teams in Jira and Confluence to close 65+ defects, mentoring 4 junior engineers and raising automated bench coverage from 54% to 88%.
+- Developed multi-threaded C++ and FreeRTOS firmware for 14 telecom gateway controllers, decoupling time-critical packet-forwarding tasks from management threads via lock-free queues to handle 3.5M+ daily TCP/IP packets at 99.9% uptime.
+- Implemented deterministic SPI, I2C, and UART peripheral drivers with hardware CRC checks and exponential backoff retries, verifying timing margins on Logic Analyzers and Protocol Analyzers to resolve 38 field-blocking bus defects.
+- Containerized cross-compilation (GCC, CMake) and Hardware-in-the-Loop (HIL) firmware regression suites in Jenkins, Docker, and Bash using Python and pytest, compressing release qualification from 5 days to 4 hours and dropping escaped firmware defects from 18 to 3.
+- Led cross-functional Root-Cause Analysis (RCA) across hardware and firmware teams in Jira and Confluence to close 65+ defects, mentoring 4 junior engineers and raising automated firmware test coverage from 54% to 88%.
 
-### Associate Validation Engineer — Hexaware Technologies, Hyderabad, India · September 2021 – October 2022
+### Associate Embedded Engineer — Hexaware Technologies, Hyderabad, India · September 2020 – October 2022
 
-- Established 480+ functional, boundary, and electrical validation test cases mapped to telecom hardware specifications via Requirements Traceability Matrices (RTM) in Jira, closing all coverage gaps before client audits.
-- Scripted Python and C utilities controlling Oscilloscopes and Programmable Power Supplies to automate UART, I2C, and SPI voltage-margin sweeps across 6 controller boards, cutting validation from 24 to 6 hours.
-- Consolidated log parsing and threshold alerting using Python, SQL, Pandas, and NumPy across 500K+ daily Embedded Linux soak-test logs, isolating clock-drift and watchdog-reset failures during 72-hour thermal runs.
+- Built low-level C firmware drivers for UART, I2C, SPI, and GPIO peripherals across 6 telecom controller boards, refactoring blocking busy-wait loops into ISR-driven state machines to keep worst-case interrupt latency under 15 µs.
+- Designed Watchdog Timer recovery routines and brown-out detection handlers validated with Oscilloscopes and Programmable Power Supplies, eliminating silent system hangs across 72-hour thermal soak tests.
+- Wrote Python and SQL diagnostic parsers processing 500K+ daily Embedded Linux kernel and syslog entries, isolating clock-drift anomalies and memory leaks prior to carrier acceptance audits.
 
 ## 🚀 Technical Projects
 
@@ -82,4 +84,4 @@ More on GitHub: [streaming-feature-store](https://github.com/NagaSatyaPhanindraV
 
 [LinkedIn](https://www.linkedin.com/in/nagasatyaphanindravallabhaneni/) · [phanindra.vns@gmail.com](mailto:phanindra.vns@gmail.com)
 
-*Building reliable hardware, one validated lane at a time.*
+*Building reliable firmware, from bare metal to boot.*
