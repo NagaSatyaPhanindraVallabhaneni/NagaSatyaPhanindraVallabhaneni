@@ -20,28 +20,6 @@
 
 **CI/CD & Tooling:** GCC, CMake, Make, Cross-Compilation, Git, Jenkins, GitHub Actions, Docker, pytest, FastAPI, AWS, Jira, Confluence
 
-## 💼 Experience
-
-### Embedded Software Engineer — Marvell Technology, Santa Clara, CA · June 2026 – Present
-
-- Architected bare-metal and Embedded Linux Board Support Packages (BSP), U-Boot bootloaders, and Device Tree overlays in C and C++ across 6 ARM Cortex SoC evaluation boards, choosing modular HAL abstractions over board-specific forks to cut new silicon bring-up from 9 to 3 days.
-- Engineered interrupt-driven Linux Kernel drivers for Ethernet (10G/25G/100G), PCIe (Gen4/Gen5), MDIO, and SerDes PHYs using zero-copy DMA ring buffers instead of polled I/O, lowering CPU utilization by 38% while sustaining line-rate packet throughput.
-- Debugged DDR memory timing faults, rail-droop resets, and bus contention via JTAG, GDB, and Oscilloscopes, isolating 19 silicon-firmware race conditions and documenting hardware workarounds in Jira and Confluence.
-- Standardized firmware static analysis and peer review gates in Git and GitHub Actions mapped to 340+ IEEE Ethernet and PCIe specifications, reducing PR review turnaround from 3 days to 8 hours.
-
-### Embedded Systems Engineer — Accenture, Hyderabad, India · October 2022 – October 2023
-
-- Developed multi-threaded C++ and FreeRTOS firmware for 14 telecom gateway controllers, decoupling time-critical packet-forwarding tasks from management threads via lock-free queues to handle 3.5M+ daily TCP/IP packets at 99.9% uptime.
-- Implemented deterministic SPI, I2C, and UART peripheral drivers with hardware CRC checks and exponential backoff retries, verifying timing margins on Logic Analyzers and Protocol Analyzers to resolve 38 field-blocking bus defects.
-- Containerized cross-compilation (GCC, CMake) and Hardware-in-the-Loop (HIL) firmware regression suites in Jenkins, Docker, and Bash using Python and pytest, compressing release qualification from 5 days to 4 hours and dropping escaped firmware defects from 18 to 3.
-- Led cross-functional Root-Cause Analysis (RCA) across hardware and firmware teams in Jira and Confluence to close 65+ defects, mentoring 4 junior engineers and raising automated firmware test coverage from 54% to 88%.
-
-### Associate Embedded Engineer — Hexaware Technologies, Hyderabad, India · September 2020 – October 2022
-
-- Built low-level C firmware drivers for UART, I2C, SPI, and GPIO peripherals across 6 telecom controller boards, refactoring blocking busy-wait loops into ISR-driven state machines to keep worst-case interrupt latency under 15 µs.
-- Designed Watchdog Timer recovery routines and brown-out detection handlers validated with Oscilloscopes and Programmable Power Supplies, eliminating silent system hangs across 72-hour thermal soak tests.
-- Wrote Python and SQL diagnostic parsers processing 500K+ daily Embedded Linux kernel and syslog entries, isolating clock-drift anomalies and memory leaks prior to carrier acceptance audits.
-
 ## 🚀 Technical Projects
 
 ### [Automated PVT Characterization & Lab Instrument Control Suite](https://github.com/NagaSatyaPhanindraVallabhaneni/pvt-characterization-suite)
